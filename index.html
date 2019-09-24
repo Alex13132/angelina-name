@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="UTF-8"/>
+   <title>IM</title>
+   <link href="css/Untitled3.css" rel="stylesheet" type="text/css"/>
+   <style type="text/css">
+    .tabs { width: 100%; padding: 0px; margin: 0 auto; }
+    .tabs>input { display:none; }
+    .tabs>div {
+        display: none;
+        padding: 12px;
+        border: 1px solid #C0C0C0;
+        background: #FFFFFF;
+    }
+    .tabs>label {
+        display: inline-block;
+        padding: 7px;
+        margin: 0 -5px -1px 0;
+        text-align: center;
+        color: #666666;
+        border: 1px solid #C0C0C0;
+        background: #E0E0E0;
+        cursor: pointer;
+    }
+    .tabs>input:checked + label {
+        color: #000000;
+        border: 1px solid #C0C0C0;
+        border-bottom: 1px solid #FFFFFF;
+        background: #FFFFFF;
+    }
+    #tab_1:checked ~ #txt_1,
+    #tab_2:checked ~ #txt_2,
+    #tab_3:checked ~ #txt_3,
+    #tab_4:checked ~ #txt_4 { display: block; }
+    </style>
+</head>
+<body>
+        
+
+><div id="Ang"><em><strong>Страница о Ангелине</strong></em></div>
+<div id="a1"></div>
+<div class="tabs">
+        <input type="radio" name="inset" value="" id="tab_1" checked>
+        <label for="tab_1">Биография</label>
+    
+        <input type="radio" name="inset" value="" id="tab_2">
+        <label for="tab_2">Галерея</label>
+    
+        <input type="radio" name="inset" value="" id="tab_3">
+        <label for="tab_3">Семья</label>
+    
+        <input type="radio" name="inset" value="" id="tab_4">
+        <label for="tab_4">Парень</label>
+    
+        <div id="txt_1">
+            <p>Ачкасова Ангелина Александровна (2003 год), родилась в Краснодарском крае.</p>
+            <p>Учится в школе, любит рисовать и шоколадки. </p>
+            <p><img src="img/5AEsRXQDzSM.jpg" width="300px"></p>
+        </div>
+        <div id="txt_2">
+                <img src="img/aa.jpg" alt="Фотография 1" width="250" >
+                <img src="img/bb.jpg" alt="Фотография 2" width="250" >
+                <img src="img/cc.jpg" alt="Фотография 3" width="250" >
+                <img src="img/dd.jpg" alt="Фотография 4" width="250" >
+                <img src="img/ff.jpg" alt="Фотография 5" width="250" >
+                <img src="img/jj.jpg" alt="Фотография 6" width="250" >
+        </div>
+        <div id="txt_3">
+            <p>Ачкасова Наталья (Мать)</p>
+            <p>Ачкасов Александр (Отец)</p>
+            <p>Ачкасов Дмитрий (Брат)</p>
+            <p>Ачкасов Максим (Брат)</p>
+            <p>и другие</p>
+        </div>
+        <div id="txt_4">
+            <p>Муханов Александр Вадимович</p>
+            <p><img src="img/dd.jpg" ></p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
