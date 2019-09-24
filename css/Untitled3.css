@@ -1,0 +1,26 @@
+body {
+    background-image: url(19d80fcb7852b18c943296e07bb42ac1.jpg)
+}
+
+    #Ang {
+        background-color:rgb(185, 185, 185);
+        color: rgb(0, 0, 0);
+        border-style: groove;
+        border: 10px solid black;
+        
+        border-radius: 60px;
+        font-size: 30px;
+        
+        padding-top: 10px; padding-bottom: 10px;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    #a1 {
+        background-color:rgb(235, 127, 39); 
+        color: black;
+
+
+    }
